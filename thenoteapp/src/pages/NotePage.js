@@ -1,13 +1,21 @@
 import React from 'react'
+import notes from '../assets/data'
 
+
+//we distructure the match object at the place of props
 const NotePage = (props) => {
-    //console.log("props: ",props)
-    //props.match.params.
+    let noteId = props.match.params.id;
+
+    let note =notes.find(note => note.id===Number(noteId))
+    
     return (
         <div>
-            <h1>This is a single note page</h1>
+            <p>{note?.body}</p>
         </div>
     )
 }
 
 export default NotePage
+
+//Don't really know what the question mark meaning but it help to
+//avoid error

@@ -1,7 +1,7 @@
 //we need to import our components 
 import {
   BrowserRouter as Router,
-  Route,
+  Route
 } from "react-router-dom";
 
 import './App.css';
@@ -15,8 +15,8 @@ function App() {
     <Router>
     <div className="App">
       <Header />      
-      <Route path='/' exact component={NotesListPage} /> 
-      <Route path='/note' commponent={NotePage} />     
+      <Route path='/' exact component={NotesListPage}/> 
+      <Route path="/note/:id" component={NotePage}/>
     </div>
     </Router>
   );
