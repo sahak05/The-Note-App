@@ -49,5 +49,14 @@ https://v5.reactrouter.com/web/guides/quick-start
 -in adition i noticed that component was replace by element
 as component={NotesListPage} by  element={<NotesListPage/>}
 
+-After we create the dummy backend with the json server 
+by using npm install -g json-server
+and to create and watch the db.json by using json-server --watch db.json
+
+We don't want that at every time we want to use it we have to use the command 
+to watch it so we gonne make a shortcut in the package.json.
+  ##this shortcut is in the script
+  "server": "json-server --watch db.json --port 5000"
+d
 
 */
