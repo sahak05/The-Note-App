@@ -5,5 +5,5 @@ This is a simple react/Django project where i'm going to learn more than the bas
 
 ![image](https://user-images.githubusercontent.com/61946862/147176019-df93a74a-8fd9-4979-a1e9-dcc6dc3876a1.png)
 -----------------------------------------------------------------------------   
-About the Django: pip install virtual env
+About the Django: pip install virtualenv
 
