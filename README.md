@@ -9,8 +9,8 @@ So the thing was at the first the project nammed was React/Django The-Note-App a
 So little by little i started but at a certain point i noticed that I really have to learn Django alone first before try to combine both.
 So here, the end of this project!!!!!!!!!!
 
-About the Django: pip install virtualenv  
-To activate the virtual env on my laptop: env\scripts\activate
-After that i can install Django on that env by: pip install django  
-To create the django project : django-admin startproject mynotes_backend
-And of course to run the server: python manage.py runserver  
+About the Django: pip install virtualenv    
+To activate the virtual env on my laptop: env\scripts\activate   
+After that i can install Django on that env by: pip install django    
+To create the django project : django-admin startproject mynotes_backend   
+And of course to run the server: python manage.py runserver    
