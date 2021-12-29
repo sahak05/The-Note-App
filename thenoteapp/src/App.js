@@ -56,7 +56,14 @@ and to create and watch the db.json by using json-server --watch db.json
 We don't want that at every time we want to use it we have to use the command 
 to watch it so we gonne make a shortcut in the package.json.
   ##this shortcut is in the script
-  "server": "json-server --watch db.json --port 5000"
-d
+  "server": "json-server --watch db.json --port 8000"
+
+
+  Warning : have to learn about lifestyle methods and Hooks
+
+
+
+-npm install -g serve this for after the build 
+-serve -s build
 
 */
